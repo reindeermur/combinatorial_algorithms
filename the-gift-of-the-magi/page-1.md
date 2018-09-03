@@ -1,14 +1,30 @@
-# Page 1
+---
+description: >-
+  Диадок – это система обмена юридически-значимыми электронными документами
+  между организациями.
+---
 
-One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one's cheeks burned with the silent imputation of parsimony that such close dealing implied. Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas.
+# Обзор возможностей API
 
-     There was clearly nothing left to do but flop down on the shabby little couch and howl. So Della did it. Which instigates the moral reflection that life is made up of sobs, sniffles, and smiles, with sniffles predominating.
+Диадок позволяет компаниям обмениваться со своими клиентами, поставщиками, партнерами, удаленными подразделениями любыми документами, в том числе:
 
-     While the mistress of the home is gradually subsiding from the first stage to the second, take a look at the home. A furnished flat at $8 per week. It did not exactly beggar description, but it certainly had that word on the look-out for the mendicancy squad.
+* электронными счетами-фактурами, порядок обмена которыми сильно формализован и регулируется Минфином и ФНС;
+* неформализованными документами, например, договорами, актами о выполнении работ \(оказании услуг\), платежными поручениями и т.д.
 
-     In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring. Also appertaining thereunto was a card bearing the name "Mr. James Dillingham Young."
+Юридическая сила документам в Диадоке придается за счет ЭП, формируемых при помощи X.509-сертификатов.
 
-     The "Dillingham" had been flung to the breeze during a former period of prosperity when its possessor was being paid $30 per week. Now, when the income was shrunk to $20, the letters of "Dillingham" looked blurred, as though they were thinking seriously of contracting to a modest and unassuming D. But whenever Mr. James Dillingham Young came home and reached his flat above he was called "Jim" and greatly hugged by Mrs. James Dillingham Young, already introduced to you as Della. Which is all very good.
+У системы Диадок есть программный интерфейс, который можно использовать для построения интеграционных решений. Интерфейс позволяет выполнять следующие действия:
 
-     Della finished her cry and attended to her cheeks with the powder rag. She stood by the window and looked out dully at a grey cat walking a grey fence in a grey backyard. To-morrow would be Christmas Day, and she had only $1.87 with which to buy Jim a present. She had been saving every penny she could for months, with this result. Twenty dollars a week doesn't go far. Expenses had been greater than she had calculated. They always are. Only $1.87 to buy a present for Jim. Her Jim. Many a happy hour she had spent planning for something nice for him. Something fine and rare and sterling - something just a little bit near to being worthy of the honour of being owned by Jim.
+* искать контрагентов по их реквизитам;
+* устанавливать с контрагентами партнерские отношения, для того чтобы иметь возможность обмениваться с ними документами через Диадок;
+* отправлять документы, либо загружать их в Диадок в папку «Черновиков», для того, чтобы ответственное лицо могло позже их подписать и отправить;
+* получать новые входящие документы, изменения в полученных или отправленных ранее документах;
+
+Кроме того, есть функционал, облегчающий процесс создания формализованных документов, таких как счета-фактуры, извещения о получении, запросы на корректировку счета-фактуры. При использовании этого функционала заботу о соответствии файлов установленным форматам Диадок берет на себя.
+
+Ниже будет более подробно рассказано о модели данных, принятой в Диадоке, и о принципах работы его API.
+
+API Диадока доступен по адресу [https://diadoc-api.kontur.ru](https://diadoc-api.kontur.ru/).
+
+Актуальную версию инструментария для разработчиков с описанием Diadoc API и примерами его использования можно найти по адресу [https://diadoc.kontur.ru/sdk/](https://diadoc.kontur.ru/sdk/).
 

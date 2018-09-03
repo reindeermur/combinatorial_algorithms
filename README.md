@@ -1,11 +1,12 @@
-# O. Henry
+---
+description: >-
+  Диадок – это система обмена юридически-значимыми электронными документами
+  между организациями.
+---
 
-| орооп | ррррр |
-| :--- | :--- |
-| нггррггррг | ллииии |
+# Документация API
 
-**William Sydney Porter** \(September 11, 1862 – June 5, 1910\), known by his pen name **O. Henry**, was an American short story writer. His stories are known for their surprise endings.
+Базовым уровнем интеграции с Диадоком является его **HTTP-API** интерфейс.
 
-**William Sydney Porter** \(September 11, 1862 – June 5, 1910\), known by his pen name **O. Henry**, was an American short story writer. His stories are known for their surprise endings.
-**William Sydney Porter** \(September 11, 1862 – June 5, 1910\), known by his pen name **O. Henry**, was an American short story writer. His stories are known for their surprise endings.
-**William Sydney Porter** \(September 11, 1862 – June 5, 1910\), known by his pen name **O. Henry**, was an American short story writer. His stories are known for their surprise endings.
+Для разработчиков, занимающихся интеграцией Диадока с различными программными продуктами, построенными на платформе 1С, доступен специальный внешний компонент.
+
